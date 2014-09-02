@@ -7,9 +7,11 @@
     <description>My First Cordova Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,test plugin</keywords>
-	
-    <asset src="www/MyFirstCordovaPlugin.js" target="plugins/com.edelworks.cordova/www" />
-
+    
+    <js-module src="www/MyFirstCordovaPlugin.js" name="MyFirstCordovaPlugin">
+        <clobbers target="MyFirstCordovaPlugin" />
+    </js-module>
+    
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
@@ -17,6 +19,7 @@
                 <param name="android-package" value="com.edelworks.cordova"/>
             </feature>
         </config-file>
+        <source-file src="src/android/MyFirstCordovaPlugin.java" target-dir="com.edelworks.cordova" />
     </platform>
 
 </plugin>
