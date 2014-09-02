@@ -19,7 +19,7 @@
                 <param name="android-package" value="com.edelworks.cordova"/>
             </feature>
         </config-file>
-        <source-file src="src/android/MyFirstCordovaPlugin.java" target-dir="com.edelworks.cordova" />
+        <source-file src="src/android/MyFirstCordovaPlugin.java" target-dir="src/com/edelworks/cordova" />
     </platform>
 
 </plugin>
