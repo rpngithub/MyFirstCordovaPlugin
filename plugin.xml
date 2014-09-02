@@ -9,7 +9,7 @@
     <keywords>cordova,test plugin</keywords>
     
     <js-module src="www/MyFirstCordovaPlugin.js" name="MyFirstCordovaPlugin">
-        <clobbers target="MyFirstCordovaPlugin" />
+        
     </js-module>
     
     <!-- android -->
