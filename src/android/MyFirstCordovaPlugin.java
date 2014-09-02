@@ -1,4 +1,4 @@
-package com.edelworks.cordova.MyFirstCordovaPlugin;
+package com.edelworks.cordova.myfirstcordovaplugin;
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.PluginResult;
