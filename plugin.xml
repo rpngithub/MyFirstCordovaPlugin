@@ -2,14 +2,14 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.edelworks.cordova.MyFirstCordovaPlugin"
-    version="0.2.11">
+    version="0.1.0">
     <name>MyFirstCordovaPlugin</name>
     <description>My First Cordova Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,test plugin</keywords>
     
     <js-module src="www/MyFirstCordovaPlugin.js" name="MyFirstCordovaPlugin">
-        
+        <clobbers target="HelloPlugin" />
     </js-module>
     
     <!-- android -->
