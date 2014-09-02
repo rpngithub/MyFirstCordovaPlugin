@@ -29,7 +29,7 @@ public class MyFirstCordovaPlugin extends CordovaPlugin {
 				 pluginResult.setKeepCallback(true);
 				 callbackContext.sendPluginResult(pluginResult);
 			 }
-			 return true
+			 return true;
 		}else{
 			return false;
 		}
