@@ -8,7 +8,7 @@
     <license>Apache 2.0</license>
     <keywords>cordova,test plugin</keywords>
 	
-	<asset src="www/MyFirstCordovaPlugin.js" target="plugins/com.edelworks.cordova/www" />
+    <asset src="www/MyFirstCordovaPlugin.js" target="plugins/com.edelworks.cordova/www" />
 
     <!-- android -->
     <platform name="android">
@@ -17,8 +17,6 @@
                 <param name="android-package" value="com.edelworks.cordova"/>
             </feature>
         </config-file>
-
-        <source-file src="src/android/MyFirstCordovaPlugin.java" target-dir="src/com/edelworks/cordova/device" />
     </platform>
 
 </plugin>
